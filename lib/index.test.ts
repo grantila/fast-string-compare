@@ -1,8 +1,11 @@
-import { readFileSync } from 'fs'
-import * as path from 'path'
+import { fileURLToPath } from 'node:url'
+import { readFileSync } from 'node:fs'
+import * as path from 'node:path'
 
 import { compare } from './index'
 
+// @ts-ignore
+const __dirname = path.dirname( fileURLToPath( import.meta.url ) );
 const wordsFile = path.resolve( __dirname, '../benchmark/words.txt' );
 const words: Array< string > =
 	readFileSync( wordsFile, 'utf-8' )

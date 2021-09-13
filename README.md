@@ -14,6 +14,9 @@ This is **not equivalent** to `localeCompare`, and does **not** return the same 
 
 The function exported by this package - `compare` - returns a pure **binary comparison**, and is therefore just as stable and useful if *some* deterministic order is needed, but not necessarily a *human friendly* order.
 
+# Versions
+
+ * Since v2 this is a [pure ESM][pure-esm] package, and requires Node.js >=12.20. It cannot be used from CommonJS.
 
 # API
 
@@ -168,3 +171,4 @@ localeCompare  x 1,140 ops/sec ±0.89% (91 runs sampled)
 [mdn-localecompare]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
 [mdn-sort]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 [mdn-collator]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/Collator
+[pure-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
