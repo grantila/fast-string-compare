@@ -2,7 +2,6 @@
 [![downloads][downloads-image]][npm-url]
 [![build status][build-image]][build-url]
 [![coverage status][coverage-image]][coverage-url]
-[![Language grade: JavaScript][lgtm-image]][lgtm-url]
 [![Node.JS version][node-version]][node-url]
 
 
@@ -159,12 +158,10 @@ localeCompare  x 1,140 ops/sec ±0.89% (91 runs sampled)
 [npm-image]: https://img.shields.io/npm/v/fast-string-compare.svg
 [npm-url]: https://npmjs.org/package/fast-string-compare
 [downloads-image]: https://img.shields.io/npm/dm/fast-string-compare.svg
-[build-image]: https://img.shields.io/github/workflow/status/grantila/fast-string-compare/Master.svg
+[build-image]: https://img.shields.io/github/actions/workflow/status/grantila/fast-string-compare/master.yml?branch=master
 [build-url]: https://github.com/grantila/fast-string-compare/actions?query=workflow%3AMaster
 [coverage-image]: https://coveralls.io/repos/github/grantila/fast-string-compare/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/grantila/fast-string-compare?branch=master
-[lgtm-image]: https://img.shields.io/lgtm/grade/javascript/g/grantila/fast-string-compare.svg?logo=lgtm&logoWidth=18
-[lgtm-url]: https://lgtm.com/projects/g/grantila/fast-string-compare/context:javascript
 [node-version]: https://img.shields.io/node/v/fast-string-compare
 [node-url]: https://nodejs.org/en/
 
