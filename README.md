@@ -16,6 +16,7 @@ The function exported by this package - `compare` - returns a pure **binary comp
 # Versions
 
  * Since v2 this is a [pure ESM][pure-esm] package, and requires Node.js >=12.20. It cannot be used from CommonJS.
+ * Since v3 requires Node.js >= 14.13.1.
 
 # API
 
