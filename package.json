@@ -64,6 +64,9 @@
       "text",
       "html"
     ],
-    "extensionsToTreatAsEsm": [ ".ts" ]
-  }
+    "extensionsToTreatAsEsm": [
+      ".ts"
+    ]
+  },
+  "packageManager": "yarn@3.2.4"
 }
